@@ -24,9 +24,9 @@ import AddIcon from '@mui/icons-material/Add';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { Car, Wrench, AlertCircle, Activity } from 'lucide-react';
 
-import  useVehicles  from '../hooks/useVehicles';
-import { StatusCard } from '../components/StatusCard';
-import { VehicleTable } from '../components/VehicleTable';
+import  useVehicles  from './hooks/useVehicles';
+import { StatusCard } from './components/StatusCard';
+import { VehicleTable } from './components/VehicleTable';
 import { STATUS_OPTIONS, FILTER_OPTIONS } from '../constants';
 
 function App() {

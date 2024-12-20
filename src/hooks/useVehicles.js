@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { API_URL } from '../constants';
+import { API_URL } from '../../constants';
 
 export default function useVehicles() {
   const [vehicles, setVehicles] = useState([]);
